@@ -13,14 +13,8 @@ class IdenticonStreamingResponse(FileResponse):
     media_type = 'image/png'
 
 
-
-with open('../.git/FETCH_HEAD', 'r') as f:
-    recent_git_commit_hash = f.read().split('	')[0][:8]
-
-
 app = FastAPI(
     title="ID.UWU.GAL",
-    version=recent_git_commit_hash,
     redoc_url="/docs",
     docs_url=None,
 )
