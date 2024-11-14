@@ -1,0 +1,6 @@
+numpy
+opencv-python
+router
+fastapi
+uvicorn
+pillow
