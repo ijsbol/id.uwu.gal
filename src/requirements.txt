@@ -4,3 +4,4 @@ router
 fastapi
 uvicorn
 pillow
+gunicorn
